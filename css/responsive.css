@@ -1,0 +1,87 @@
+/* Large desktop */
+@media (max-width: 1280px) {
+    .w-r-100 {
+        width: 100% !important;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .w-r-100 {
+        width: 100% !important;
+    }
+
+    .active {
+        border: 0;
+        border-bottom: #009ad8 2px solid;
+        width: 100px;
+        border-radius: 0;
+        color: #009ad8 !important;
+    }
+    .icons {
+        justify-content: end;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .w-r-100 {
+        width: 100% !important;
+    }
+
+    .active {
+        border: 0;
+        border-bottom: #009ad8 2px solid;
+        width: 100px;
+        border-radius: 0;
+        color: #009ad8 !important;
+    }
+    .column{
+        flex-direction: column;
+    }
+    .w-r-90{
+        width: 90% !important;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .w-r-100 {
+        width: 100% !important;
+    }
+
+    .active {
+        border: 0;
+        border-bottom: #009ad8 2px solid;
+        width: 100px;
+        border-radius: 0;
+        color: #009ad8 !important;
+    }
+
+    .w-r-50 {
+        width: 50% !important;
+    }
+    .column{
+        flex-direction: column;
+    }
+    .w-r-90{
+        width: 90% !important;
+    }
+}
+
+@media (max-width:280px) {
+    .navbar-collapse {
+        flex-basis: 80%;
+        flex-grow: 0;
+        align-items: center;
+    }
+    .fs-r-4{
+        font-size: 65px;
+    }
+    .column{
+        flex-direction: column;
+    }
+    .w-r-90{
+        width: 90% !important;
+    }
+}
